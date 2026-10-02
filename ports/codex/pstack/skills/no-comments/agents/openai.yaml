@@ -1,0 +1,5 @@
+interface:
+  display_name: "no-comments"
+  short_description: "Apply no comments"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "blast-radius"
+  short_description: "Apply blast radius"
+policy:
+  allow_implicit_invocation: false

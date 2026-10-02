@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-type-system-discipline"
+  short_description: "Apply principle type system discipline"
+policy:
+  allow_implicit_invocation: false

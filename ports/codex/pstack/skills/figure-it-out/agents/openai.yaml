@@ -1,0 +1,5 @@
+interface:
+  display_name: "figure-it-out"
+  short_description: "Apply figure it out"
+policy:
+  allow_implicit_invocation: false

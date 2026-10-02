@@ -1,0 +1,5 @@
+interface:
+  display_name: "arena"
+  short_description: "Apply arena"
+policy:
+  allow_implicit_invocation: false

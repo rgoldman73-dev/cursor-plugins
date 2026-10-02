@@ -1,0 +1,5 @@
+interface:
+  display_name: "how"
+  short_description: "Apply how"
+policy:
+  allow_implicit_invocation: false

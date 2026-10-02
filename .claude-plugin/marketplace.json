@@ -1,0 +1,17 @@
+{
+  "name": "rgoldman-pstack",
+  "owner": {
+    "name": "Robert Goldman"
+  },
+  "metadata": {
+    "description": "Unofficial Claude Code adaptation of Lauren Tan's MIT-licensed pstack"
+  },
+  "plugins": [
+    {
+      "name": "pstack",
+      "source": "./ports/claude/pstack",
+      "description": "47 pstack engineering workflows adapted for Claude Code",
+      "category": "development"
+    }
+  ]
+}

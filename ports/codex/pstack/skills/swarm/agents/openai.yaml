@@ -1,0 +1,5 @@
+interface:
+  display_name: "swarm"
+  short_description: "Apply swarm"
+policy:
+  allow_implicit_invocation: false

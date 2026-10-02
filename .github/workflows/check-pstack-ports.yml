@@ -1,0 +1,17 @@
+name: Check pstack ports
+on:
+  push:
+    paths: ['pstack/**', 'ports/**', 'scripts/build-pstack-ports.py', 'scripts/port-templates/**', '.github/workflows/check-pstack-ports.yml']
+  pull_request:
+    paths: ['pstack/**', 'ports/**', 'scripts/build-pstack-ports.py', 'scripts/port-templates/**', '.github/workflows/check-pstack-ports.yml']
+permissions:
+  contents: read
+jobs:
+  generated-packages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/build-pstack-ports.py --check

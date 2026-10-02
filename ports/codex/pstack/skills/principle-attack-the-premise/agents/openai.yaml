@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-attack-the-premise"
+  short_description: "Apply principle attack the premise"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "architect"
+  short_description: "Apply architect"
+policy:
+  allow_implicit_invocation: false

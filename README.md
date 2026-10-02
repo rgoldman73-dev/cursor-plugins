@@ -1,3 +1,7 @@
+# Claude Code and Codex ports
+
+This fork provides pstack for Claude Code and Codex. See [PORTS.md](./PORTS.md) for install commands, regeneration and compatibility limits. The original Cursor plugin remains in `pstack/`.
+
 # Cursor plugins
 
 Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own `.cursor-plugin/plugin.json` manifest.

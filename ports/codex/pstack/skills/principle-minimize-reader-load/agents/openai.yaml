@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-minimize-reader-load"
+  short_description: "Apply principle minimize reader load"
+policy:
+  allow_implicit_invocation: false

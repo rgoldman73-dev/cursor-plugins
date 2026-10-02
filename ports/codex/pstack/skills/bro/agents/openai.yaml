@@ -1,0 +1,5 @@
+interface:
+  display_name: "bro"
+  short_description: "Apply bro"
+policy:
+  allow_implicit_invocation: false

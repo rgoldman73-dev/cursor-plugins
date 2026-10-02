@@ -1,0 +1,5 @@
+interface:
+  display_name: "recall"
+  short_description: "Apply recall"
+policy:
+  allow_implicit_invocation: false

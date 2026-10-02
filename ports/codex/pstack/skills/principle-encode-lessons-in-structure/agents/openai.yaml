@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-encode-lessons-in-structure"
+  short_description: "Apply principle encode lessons in structure"
+policy:
+  allow_implicit_invocation: false
